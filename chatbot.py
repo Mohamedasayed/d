@@ -48,7 +48,7 @@ def receive_prompt():
     if not user_input:
         return jsonify({"error": "No input provided"}), 400
 
-    # Generate AI response
+    # Generate AI response                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
     try:
         response_text = generate_response(user_input)
         # Add to conversation history
